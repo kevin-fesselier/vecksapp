@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vecksapp", "vecksapp\vecksapp.csproj", "{CF2041A9-9B2E-4AB3-9209-30DEDB184BAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF2041A9-9B2E-4AB3-9209-30DEDB184BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2041A9-9B2E-4AB3-9209-30DEDB184BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2041A9-9B2E-4AB3-9209-30DEDB184BAC}.Debug|x64.ActiveCfg = Debug|x64
+		{CF2041A9-9B2E-4AB3-9209-30DEDB184BAC}.Debug|x64.Build.0 = Debug|x64
+		{CF2041A9-9B2E-4AB3-9209-30DEDB184BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2041A9-9B2E-4AB3-9209-30DEDB184BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2041A9-9B2E-4AB3-9209-30DEDB184BAC}.Release|x64.ActiveCfg = Release|x64
+		{CF2041A9-9B2E-4AB3-9209-30DEDB184BAC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EA2540F-C1BD-4B87-AE71-100B1AE0402B}
+	EndGlobalSection
+EndGlobal
