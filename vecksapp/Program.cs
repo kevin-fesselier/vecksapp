@@ -15,6 +15,7 @@ namespace vecksapp
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
@@ -23,10 +24,13 @@ namespace vecksapp
             CefSharp.Cef.Initialize(settings);
 
             var mainForm = new mainForm();
-            var browser = new ChromiumWebBrowser("https://web.whatsapp.com/");
-            mainForm.Controls.Add(browser);
 
+            var browser = new ChromiumWebBrowser("https://web.whatsapp.com/");
+            browser.LifeSpanHandler = new vecksappLifeSpanHandler();
+            
+            mainForm.Controls.Add(browser);
             mainForm.ShowInTaskbar = false;
+
             Application.Run(mainForm);
 
         }
